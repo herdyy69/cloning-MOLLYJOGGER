@@ -96,7 +96,7 @@ const Footer = () => {
       </div>
       <div className="container mx-auto px-7 py-5">
         <div className="flex flex-row flex-nowrap items-center justify-center">
-          <p className="text-gray-500">© 2021 All Rights Reserved</p>
+          <p className="text-gray-500">© 2022 All Rights Reserved</p>
         </div>
       </div>
     </footer>
