@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../img/img";
+import Img from "../cmpn/img/img";
 
 const Gallery = () => {
   var img = [];
