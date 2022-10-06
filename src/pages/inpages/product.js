@@ -1,7 +1,7 @@
 import React from "react";
 import Data from "../../components/gallery/data";
 
-const Product = (Props) => {
+const Product = () => {
   const data = Data;
   const myData = data.map((item) => {
     return item.img1;
