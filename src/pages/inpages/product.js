@@ -1,4 +1,12 @@
-const Product = () => {
+import React from "react";
+import Data from "../../components/gallery/data";
+
+const Product = (Props) => {
+  const data = Data;
+  const myData = data.map((item) => {
+    return item.img1;
+  });
+
   return (
     <div className="flex flex-row flex-nowrap items-start justify-around">
       <div className="container mx-auto px-7 py-5">
@@ -6,30 +14,30 @@ const Product = () => {
           <div className="w-auto p-4">
             <div className="carousel w-full">
               <div id="item1" className="carousel-item w-full">
-                <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                <img src={myData[0]} className="w-full" />
               </div>
               <div id="item2" className="carousel-item w-full">
-                <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                <img src={myData[1]} className="w-full" />
               </div>
               <div id="item3" className="carousel-item w-full">
-                <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                <img src={myData[2]} className="w-full" />
               </div>
               <div id="item4" className="carousel-item w-full">
-                <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                <img src={myData[3]} className="w-full" />
               </div>
             </div>
             <div className="flex flex-row flex-wrap justify-start py-2 gap-1">
               <a href="#item1" className="">
-                <img src="https://placeimg.com/800/200/arch" className="w-32" />
+                <img src={myData[0]} className="w-32 h-20" />
               </a>
               <a href="#item2" className="">
-                <img src="https://placeimg.com/800/200/arch" className="w-32" />
+                <img src={myData[1]} className="w-32 h-20" />
               </a>
               <a href="#item3" className="">
-                <img src="https://placeimg.com/800/200/arch" className="w-32" />
+                <img src={myData[2]} className="w-32 h-20" />
               </a>
               <a href="#item4" className="">
-                <img src="https://placeimg.com/800/200/arch" className="w-32" />
+                <img src={myData[3]} className="w-32 h-20" />
               </a>
             </div>
           </div>
