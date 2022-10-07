@@ -1,5 +1,6 @@
 import React from "react";
 import Data from "../../components/gallery/data";
+import { Link } from "react-router-dom";
 
 const Product = () => {
   const data = Data;
@@ -53,7 +54,9 @@ const Product = () => {
           <span className="my-1"></span>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full">Buy Now</button>
           <span className="my-1"></span>
-          <p className=" text-gray-600 text-center w-full">MORE PAYMENT OPTIONS</p>
+          <p className=" text-gray-600 text-center w-full">
+            <Link to="/payment">Payment</Link>
+          </p>
           <hr className="w-full" />
           <span className="my-3"></span>
           <div className="flex flex-row flex-wrap items-center justify-center py-2 gap-1">

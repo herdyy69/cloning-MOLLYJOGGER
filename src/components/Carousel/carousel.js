@@ -50,18 +50,10 @@ const Carousel = () => {
         </div>
       </div>
       <div className="flex justify-center w-full py-2 gap-2">
-        <a href="#slide1" className="btn btn-xs">
-          1
-        </a>
-        <a href="#slide2" className="btn btn-xs">
-          2
-        </a>
-        <a href="#slide3" className="btn btn-xs">
-          3
-        </a>
-        <a href="#slide4" className="btn btn-xs">
-          4
-        </a>
+        <a href="#slide1" className="btn btn-xs"></a>
+        <a href="#slide2" className="btn btn-xs"></a>
+        <a href="#slide3" className="btn btn-xs"></a>
+        <a href="#slide4" className="btn btn-xs"></a>
       </div>
     </div>
   );
