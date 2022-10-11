@@ -4,15 +4,15 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col flex-wrap items-start justify-between drop-shadow-lg bg-[#000]">
+    <footer className="flex flex-col flex-wrap items-start justify-between drop-shadow-lg bg-slate-800">
       <div className="container mx-auto px-7 py-10 ">
-        <div className="flex flex-row flex-wrap items-start justify-between">
+        <div className="flex flex-col lg:flex-row flex-wrap items-center lg:items-start justify-between">
           <img
             src="https://cdn.shopify.com/s/files/1/0283/5820/t/9/assets/Mollyjogger-footer-logo.png?145594270456687406"
             alt="Workflow"
             className="h-full w-auto mx-6"
           />
-          <div className="flex flex-col flex-wrap items-center justify-center">
+          <div className="flex flex-col flex-wrap items-center justify-center mt-2">
             <h3 className="text-white text-sm font-medium">Newsletter</h3>
             <p className="text-white text-xs font-light w-56 mb-2">
               Subscribe for exclusive offers, special events and a good tall
@@ -30,7 +30,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="flex flex-col flex-nowrap items-center justify-center">
+          <div className="flex flex-col flex-nowrap items-center justify-center mt-2">
             <h3 className="text-white text-sm text-center font-medium">
               LINKS
             </h3>
@@ -53,7 +53,7 @@ const Footer = () => {
               Returns
             </a>
           </div>
-          <div className="flex flex-col flex-nowrap items-center justify-center">
+          <div className="flex flex-col flex-nowrap items-center justify-center mt-2">
             <h3 className="text-white text-sm font-medium">GET IN TOUCH</h3>
             <div className="flex flex-col flex-nowrap items-center justify-center">
               <p className="text-white text-xs font-light">
@@ -151,7 +151,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-7 py-5">
+      <div id="contact" className="container mx-auto px-7 py-5">
         <div className="flex flex-row flex-nowrap items-center justify-center">
           <p className="text-gray-500">© 2022 All Rights Reserved</p>
         </div>

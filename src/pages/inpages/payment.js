@@ -137,7 +137,7 @@ function Payment() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-start justify-start w-full h-full bg-[#000]">
+        <div className="flex flex-col items-start justify-start w-full h-full bg-[#fff] shadow-lg">
           <div className="container py-72">
             <div className="flex flex-row flex-wrap items-center justify-center">
               <img
